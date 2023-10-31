@@ -1,0 +1,135 @@
+body {
+    margin:0;
+    border:0;
+    padding:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+header {
+    background-color: #0a91ab;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h1_prin {
+    color: #ffc045;
+    font-size: 3rem;
+}
+
+.separator {
+    border: solid 1px #ffc045;
+    width: 16rem;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    width: 12rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+
+}
+
+.nav_ul {
+    background-color: #ffc045;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    z-index: 99;
+}
+
+.nav_1 {
+    margin: 1rem;
+    text-decoration: none;
+    color:black
+}
+
+.nav_1:hover {
+    color:#c08613;
+}
+
+.videogames_section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h2_1 {
+    color:#0a91ab;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.div_videogames {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 625px;
+}
+
+.videogame_img {
+    width: 550px;
+    height: 300px;
+    border-radius: 22px 22px 0px 0px;
+}
+
+.videogame {
+    border: solid 3px #ffc045;
+    border-radius: 25px;
+    width: 550px;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.videogame_h3 {
+    padding-left: 1rem;
+    color:#ffc045;
+    font-size: 25px;
+}
+
+.videogame_p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: gray;
+    line-height: 1.75rem;
+}
+
+.videogame_a {
+    text-decoration: none;
+    color: black;
+    background-color: #ffc045;
+    border: solid 8px #ffc045;
+    border-radius: 8px;
+    position: absolute;
+    margin: 0.5rem;
+    right: 0;
+    bottom: 0;
+}
+
+aside {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.trucos_sec {
+    background-color:#8edae9b7;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.trucos_h2 {
+    color:#0a91ab;
+    font-size: 2rem;
+}
+
+.trucos_nav {
+    align-items: center;
+    
+}
